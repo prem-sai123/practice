@@ -1,0 +1,33 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Fourthans {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int num1, num2;
+		int isGreaterThan;
+		System.out.println("Please Enter Number 1 : ");
+		num1 = scanner.nextInt();
+		System.out.println("Please Enter Number 2 : ");
+		num2 = scanner.nextInt();
+		 int trueOrFalse;
+		    if(num1>num2){
+		    	isGreaterThan = 1;
+		    }else{
+		    	isGreaterThan = 0;
+		    }
+		switch (isGreaterThan) {
+		case 0:
+			System.out.println("Greater Number");
+			break;
+		case 1:
+			System.out.println("Smaller Number");
+			break;
+		default:
+			System.out.println(Boolean.hashCode(num1 > num2));
+			System.out.println("Invalid Number");
+			break;
+		}
+	}
+}

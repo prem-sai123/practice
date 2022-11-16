@@ -1,0 +1,11 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Tenthans {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please Enter Month Number : ");
+		int day = scanner.nextInt();
+	}
+}

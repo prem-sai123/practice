@@ -1,0 +1,7 @@
+package in.easycloud.appaltest;
+
+public class TestCase {
+	public static void main(String[] args) {
+		
+	}
+}

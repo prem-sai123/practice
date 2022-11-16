@@ -1,0 +1,10 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Seventeenth {
+	private void min() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please Enter number : ");
+	}
+}

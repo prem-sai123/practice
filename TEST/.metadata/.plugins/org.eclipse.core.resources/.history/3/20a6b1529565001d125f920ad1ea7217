@@ -1,0 +1,7 @@
+package in.easycloud.appaltest;
+
+public class Thirdans {
+	public static void main(String[] args) {
+		
+	}
+}

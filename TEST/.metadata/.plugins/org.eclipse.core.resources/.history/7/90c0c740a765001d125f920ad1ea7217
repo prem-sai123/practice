@@ -1,0 +1,18 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Fourteenth {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int num,temp,sum = 0,remainder;
+		System.out.println("Please Enter Number 1 : ");
+		num = scanner.nextInt();
+		temp = num;
+		while(num %10 >0) {
+			remainder=num%10;  //getting remainder  
+			   sum=(sum*10)+remainder;    
+			   num=num/10;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Fifteenth {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int num, temp, sum = 0, remainder;
+		System.out.println("Please Enter Number : ");
+	}
+}

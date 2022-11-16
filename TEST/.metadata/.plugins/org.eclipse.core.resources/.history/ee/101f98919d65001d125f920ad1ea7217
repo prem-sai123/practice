@@ -1,0 +1,9 @@
+package in.easycloud.appaltest;
+
+import java.util.*;
+
+public class Eighthans {
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>();
+	}
+}

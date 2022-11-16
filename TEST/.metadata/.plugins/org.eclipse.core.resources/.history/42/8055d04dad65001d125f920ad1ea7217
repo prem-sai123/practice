@@ -1,0 +1,14 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Nineteenth {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please Enter the number to get fibonacci series upto : ");
+		int num = scanner.nextInt();
+		for(int i=1;i<=num;i++) {
+			
+		}
+	}
+}

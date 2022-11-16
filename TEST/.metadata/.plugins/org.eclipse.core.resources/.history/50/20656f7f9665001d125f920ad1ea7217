@@ -1,0 +1,13 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Fourthans {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please Enter Number 1 : ");
+		int num1 = scanner.nextInt();
+		System.out.println("Please Enter Number 2 : ");
+		int num2 = scanner.nextInt();
+	}
+}

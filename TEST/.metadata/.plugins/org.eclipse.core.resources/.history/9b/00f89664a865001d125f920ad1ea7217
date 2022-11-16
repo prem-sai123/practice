@@ -1,0 +1,11 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Sixteenth {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please Enter Number : ");
+		int year= scanner.nextInt();
+	}
+}

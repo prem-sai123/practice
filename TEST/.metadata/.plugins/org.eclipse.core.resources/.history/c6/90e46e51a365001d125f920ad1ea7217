@@ -1,0 +1,10 @@
+package in.easycloud.appaltest;
+
+import java.util.Scanner;
+
+public class Eleventh {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter your number : ");
+	}
+}
